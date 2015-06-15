@@ -15,8 +15,7 @@ app.set('layout', false);
 
 app.get('/', (req, res, next)=> {
     res.render('products/list', {
-      title: 'testerooni',
-      layout: false
+      layout: 'layout.html'
     });
 });
 
