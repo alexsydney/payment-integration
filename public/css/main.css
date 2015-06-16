@@ -1,3 +1,47 @@
+body {
+    background-color: #FAF9F9;
+}
+
 .content.container {
     margin-top: 50px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: #9F9E9E 0 1px 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.product_name {
+    font-family: 'helvetica neue';
+    font-size: 70px;
+    font-weight: 100;
+    color: #333;
+    padding-top: 24px;
+}
+
+.btn {
+    font-size: 24px;
+    background-color: #B8E986;
+    box-shadow: #77B03C 0 4px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 43px;
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.btn_secondary {
+    color: #737171;
+    font-weight: 200;
+}
+
+.btn_primary {
+    color: #333;
 }
